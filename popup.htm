@@ -1,0 +1,105 @@
+<!--- // GOOGLEPANELLITE WE --->
+<!--- // 20171125: V1.0.0-alpha --->
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Googlepanel Lite WE - Popup</title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--- CREDITS: FONTAWESOME --->
+    <!--- CREDITS: http://fontawesome.io/ --->
+    <!--- CREDITS: "Font Awesome licensed under SIL OFL 1.1 " --->
+
+
+    <!--- CREDITS: PURE CSS  --->
+    <!--- CREDITS: ADAPTED FROM https://purecss.io/combo/1.18.13?/css/layouts/marketing.css --->
+    <!--- CREDITS: " licensed under the Yahoo BSD License unless otherwise stated. " --->
+    <style>
+    * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    body {
+        line-height: 1em;
+        color: #7f8c8d;
+        font-size: 13px;
+        width: 50em;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    label {
+        color: #34495e;
+    }
+
+    .pure-img-responsive {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .pure-button {
+        background-color: #1f8dd6;
+        color: white;
+        padding: 0.5em 1em;
+        border-radius: 5px;
+        font-size: 15px;
+    }
+
+    .pure-form label {
+        margin: 1em 0 0;
+        font-weight: bold;
+        font-size: 100%;
+    }
+
+    .pure-form input[type] {
+        padding: 0.5em 0.5em;
+        border: 2px solid #ddd;
+        box-shadow: none;
+        font-size: 100%;
+        
+    }
+
+    .home-menu {
+        padding: 0.5em;
+        text-align: center;
+        box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
+    }
+
+    .home-menu {
+        background: #2d3e50;
+    }
+
+    .header
+    </style>
+</head>
+
+<body>
+    <div class="home-menu">
+    <form>
+        <div class="pure-form pure-g">
+            <div class="pure-u-1-2">
+                <input type="text" id="textbox" class="pure-input-1" >
+            </div>
+            <div class="pure-u-1-2">
+                <a class="pure-button" id="btnSearch"><i class="fa fa-search" aria-hidden="true" title="search"></i></a>
+                <a class="pure-button" id="btnImages"><i class="fa fa-picture-o" aria-hidden="true" title="images"></i></a>
+                <a class="pure-button" id="btnNews"><i class="fa fa-newspaper-o" aria-hidden="true" title="news"></i></a>
+                <a class="pure-button" id="btnMaps"><i class="fa fa-globe" aria-hidden="true" title="maps"></i></a>
+                <a class="pure-button" id="btnScholar"><i class="fa fa-graduation-cap" aria-hidden="true" title="scholar"></i></a>
+                <a class="pure-button" id="btnDictionary"><i class="fa fa-book" aria-hidden="true" title="dictionary"></i></a>
+            </div>
+        </div>
+    </form>
+    </div>
+
+    <script src="popup.js"></script>
+
+</body>
+</html>

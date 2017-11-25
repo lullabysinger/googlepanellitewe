@@ -1,0 +1,33 @@
+{
+    "manifest_version": 2,
+    "name": "Googlepanel Lite WE",
+    "version": "1.0",
+    "version_name": "1.0 alpha",
+
+    "description": "Googlepanel Lite WE, resurrected to use Webextensions, compatible with Firefox 57+.",
+
+    "icons": {
+        "48": "icon.png"
+    },
+
+    "background": {
+        "scripts": ["background.js"]
+    },
+    
+    "content_scripts": [
+        {
+            "matches": ["*://*/*"],
+            "js": ["contentscript.js"]
+        }
+    ],
+  
+    "permissions": ["contextMenus", "activeTab", "tabs"],
+
+    
+    "browser_action": {
+        "default_icon":  "icon.png",
+        "default_title": "Googlepanel Lite WE",
+        "default_popup": "popup.htm",
+        "browser_style": true
+    }
+}
